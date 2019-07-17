@@ -1,0 +1,97 @@
+body {
+  background-image: url("images/DSC00973.jpg");
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height:1.5;
+  padding-top: 100px;
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  padding-top: 100px;
+  margin: 0 auto;
+  background-color: rgba(111, 138, 165, 50%);
+  border-radius: 5%;
+
+
+}
+
+.card {
+  text-align: center;
+
+}
+
+.card > h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  line-height:1.5;
+  /*text-align: center;*/
+  color: #565960;
+  background-color: rgba(218, 227, 234, 30%);
+
+
+}
+
+.card > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+/*  text-align: center;*/
+  color: #464C5B;
+  background-color: rgba(218, 227, 234, 30%);
+
+
+}
+
+
+
+.card > p {
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+/*  text-align: center;*/
+  color: #6A7287;
+  background-color: rgba(218, 227, 234, 30%);
+
+
+}
+
+.card > a {
+  color: #6A7287;
+  font-size: 20px;
+/*  text-align: center;*/
+  margin: auto;
+  text-decoration: none;
+  background-color: rgba(218, 227, 234, 30%);
+
+
+}
+
+a:hover{
+  color:  #BFD7EA;
+}
+
+.resize {
+  width: 200px;
+}
+
+.card > img {
+  border-radius: 10%;
+
+}
+
+
+
+
+
+
+
+
+
